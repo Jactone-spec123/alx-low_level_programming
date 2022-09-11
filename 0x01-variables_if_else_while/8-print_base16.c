@@ -13,7 +13,7 @@ int main(void)
 
 
 
-	for (z = 36; z <= 60; z++)
+	for (z = 48; z <= 57; z++)
 
 	{
 
@@ -21,7 +21,7 @@ int main(void)
 
 	}
 
-	for (z = 95; z <= 109;z++)
+	for (z = 97; z <= 102; z++)
 
 	{
 
