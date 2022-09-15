@@ -3,8 +3,13 @@
 
 
 /**
- * print_alphabet - check the code for Jactone.
+
+ * print_alphabet - check the code in alphabetical order.
+
+ *
+
  * Return: Always 0.
+
  */
 
 
@@ -13,24 +18,22 @@ void print_alphabet(void)
 
 {
 
-		char alp = 'a';
+	char alp = 'a';
 
 
 
-			while (alp <= 'z')
+	while (alp <= 'z')
 
-					{
+	{
 
-								_putchar (alp);
+		_putchar (alp);
 
-										alp++;
-
-
-
-											}
-
-				_putchar ('\n');
+		alp++;
 
 
+	}
+
+	_putchar ('\n');
 
 }
+
