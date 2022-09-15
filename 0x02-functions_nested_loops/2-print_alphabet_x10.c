@@ -4,7 +4,7 @@
 
 /**
 
- * print_alphabet_x10 - func
+ * print_alphabet_x10 - function  to print abc 10  times
 
  *
 
@@ -16,27 +16,21 @@ void print_alphabet_x10(void)
 
 {
 
-int b = 0;
+	char c, i;
 
-while (b < 10)
+	for (i = 0; i <= 9; i++)
 
-{
+	{
 
-char a = 'a';
+		for (c = 'a'; c <= 'z'; c++)
 
-while (a <= 'z')
+		{
 
-{
+			_putchar(c);
 
-_putchar(a);
+		}
 
-a++;
+		_putchar('\n');
 
+	}
 }
-
-_putchar('\n');
-
-b++;
-
-}
-
