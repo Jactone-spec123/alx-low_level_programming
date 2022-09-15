@@ -4,8 +4,6 @@
 
  * main - Prints _putchar
 
- *
-
  * Return: Always 0 (Success)
 
  */
